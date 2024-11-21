@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.balance {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.balance.positive {
+    color: green;
+}
+
+.balance.negative {
+    color: red;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.income-box {
+    background-color: #12ca5f;
+}
+
+.expense-box {
+    background-color: red;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #21618c;
+}
+
+.transaction-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.transaction-list h3 {
+    color: #fff;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: black;
+}
+
+.income-item {
+    color: green;
+}
+
+.expense-item {
+    color: red;
+}
