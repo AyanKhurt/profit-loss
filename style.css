@@ -38,11 +38,11 @@ body {
     border-radius: 5px;
 }
 
-.income-box {
+.div1 {
     background-color: #12ca5f;
 }
 
-.expense-box {
+.div2 {
     background-color: red;
 }
 
